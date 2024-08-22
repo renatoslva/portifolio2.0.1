@@ -29,12 +29,21 @@ header {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin-top: 5%;
     margin-left: 50px;
+}
+.img2{
+    width: 500px;
+    height: 100px;
+position: relative;
+top: -100px;
+left: 200px;
+
 
 }
 
 nav ul {
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     padding: 0;
 }
@@ -63,9 +72,25 @@ section#portfolio .projetos {
 section#portfolio .projeto {
     width: 30%;
     background-color: #fff;
-    margin: 15px 0;
+    margin: 20px 0;
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#portfolio{
+    margin-top: -8%;
+    
+}
+.site1{
+    height: 80%;
+    width: 100%;
+}
+.site2{
+    height: 80%;
+    width: 100%;   
+}
+.site3{
+    height: 70%;
+    width: 100%;
 }
 
 footer {
