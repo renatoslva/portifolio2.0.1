@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #251717;
+}
+.nome{
+    font-size: 50px;
+    text-align: right;
+    margin-right: 20px;
+
+}
+.des{
+    font-size: 25px;
+    text-align: right;
+    margin-right: 20px;
+    border-bottom: solid;
+
+}
+
+header {
+    background: linear-gradient(rgb(252, 243, 243),rgb(95, 72, 72));
+    color: #3a3535;
+    padding: 20px;
+    
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 50px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    margin: 20px;
+}
+
+section#portfolio .projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section#portfolio .projeto {
+    width: 30%;
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+footer p {
+    margin: 5px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
