@@ -5,40 +5,39 @@ body {
     background-color: #f4f4f4;
     color: #251717;
 }
-.nome{
+
+.nome {
     font-size: 50px;
     text-align: right;
     margin-right: 20px;
-
 }
-.des{
+
+.des {
     font-size: 25px;
     text-align: right;
     margin-right: 20px;
     border-bottom: solid;
-
 }
 
 header {
-    background: linear-gradient(rgb(252, 243, 243),rgb(95, 72, 72));
+    background: linear-gradient(rgb(252, 243, 243), rgb(95, 72, 72));
     color: #3a3535;
     padding: 20px;
-    
 }
-.img1{
+
+.img1 {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     margin-left: 50px;
 }
-.img2{
+
+.img2 {
     width: 500px;
     height: 100px;
-position: relative;
-top: -100px;
-left: 200px;
-
-
+    position: relative;
+    top: -100px;
+    left: 200px;
 }
 
 nav ul {
@@ -76,20 +75,13 @@ section#portfolio .projeto {
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-#portfolio{
+
+#portfolio {
     margin-top: -8%;
-    
 }
-.site1{
+
+.site1, .site2, .site3 {
     height: 80%;
-    width: 100%;
-}
-.site2{
-    height: 80%;
-    width: 100%;   
-}
-.site3{
-    height: 70%;
     width: 100%;
 }
 
@@ -109,4 +101,130 @@ footer a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .nome {
+        font-size: 40px;
+        margin-right: 15px;
+    }
+
+    .des {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    .img1 {
+        width: 250px;
+        height: 250px;
+        margin-left: 30px;
+    }
+
+    .img2 {
+        width: 400px;
+        height: 80px;
+        top: -80px;
+        left: 150px;
+    }
+
+    section {
+        padding: 30px;
+        margin: 15px;
+    }
+
+    section#portfolio .projeto {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nome {
+        font-size: 30px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .des {
+        font-size: 18px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .img1 {
+        width: 200px;
+        height: 200px;
+        margin-left: 0;
+    }
+
+    .img2 {
+        width: 300px;
+        height: 60px;
+        top: -60px;
+        left: 0;
+        margin: 0 auto;
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    section#portfolio .projetos {
+        flex-direction: column;
+    }
+
+    section#portfolio .projeto {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #portfolio {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .nome {
+        font-size: 24px;
+    }
+
+    .des {
+        font-size: 16px;
+        border-bottom: none;
+    }
+
+    .img1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .img2 {
+        width: 250px;
+        height: 50px;
+        top: -50px;
+    }
+
+    section {
+        padding: 15px;
+        margin: 5px;
+    }
+
+    footer {
+        padding: 8px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
 }
