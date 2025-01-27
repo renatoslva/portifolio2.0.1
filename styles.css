@@ -66,6 +66,7 @@ section#portfolio .projetos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+   
 }
 
 section#portfolio .projeto {
